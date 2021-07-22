@@ -5,7 +5,7 @@ const port = 5000;
 
 app.get('/',(req,res)=>{
     console.log("hello");
-    res.send('hello world').status(200)
+    res.send('hello world')
 });
 
 app.listen(port,()=>{
